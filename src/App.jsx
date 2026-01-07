@@ -1,6 +1,19 @@
 export const App = () => {
   return (
     <div>
+      <NetflixSeries/>
+      <NetflixSeries/>
+      <NetflixSeries/>
+      <NetflixSeries/>
+      <NetflixSeries/>
+    </div>
+  );
+};
+
+
+  const NetflixSeries = () => {
+    return(
+       <div>
       <div>
         <img src="stranger.png" alt="st" width="40%" height="40%x" />
       </div>
@@ -8,5 +21,5 @@ export const App = () => {
       <h3>Rating: 4.7</h3>
       <p> Summary: Stranger Things is a sci-fi thriller series set in the 1980s. It follows a group of kids in the town of Hawkins whose lives change when a boy named Will disappears.Together, they fight supernatural creatures and government conspiracies while protecting their friends and families.</p>
     </div>
-  );
-};
+    )
+  }
