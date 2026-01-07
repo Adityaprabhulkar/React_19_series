@@ -1,35 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export const App = () => {
   return (
-    <>
+    <div>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src="stranger.png" alt="st" width="40%" height="40%x" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
-export default App
+      <h2>Name: Stranger Things</h2>
+      <h3>Rating: 4.7</h3>
+      <p> Summary: Stranger Things is a sci-fi thriller series set in the 1980s. It follows a group of kids in the town of Hawkins whose lives change when a boy named Will disappears.Together, they fight supernatural creatures and government conspiracies while protecting their friends and families.</p>
+    </div>
+  );
+};
