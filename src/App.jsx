@@ -1,9 +1,7 @@
-import NetflixSeries from "./components/NetflixSeries";
+// import NetflixSeries from "./components/NetflixSeries";
+import Profile from "./components/Profile";
 
 export const App = () => {
-  return (
-    <>
-      <NetflixSeries />
-    </>
-  );
+  return <NetflixSeries />;
+  //  <Profile/>
 };
