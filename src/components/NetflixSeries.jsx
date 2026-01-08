@@ -1,12 +1,12 @@
 import seriesData from "../api/seriesData";
-import SeriesCard from "./SeriesCard";
+import {SeriesCard} from "./SeriesCard";
 
 const NetflixSeries = () => {
   return (
     <ul>
-      {seriesData.map((curElem) => {
-        return <SeriesCard key={curElem.id} curElem={curElem} />;
-      })}
+      {seriesData.map((curElem) => (
+        <SeriesCard key={curElem.id} data={curElem} />
+      ))}
     </ul>
   );
 };
