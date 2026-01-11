@@ -32,16 +32,16 @@ export const SeriesCard = ({ data }) => {
 
   const ratingClass = rating >= 8.5 ? "super_hit" : "avarage";
   return (
-    <li className="series-card">
-      <div className="card-img">
+    <li className="card">
+      <div className="flex">
         <img src={img_url} alt={name} width="40%" height="40%x" />
       </div>
-      <div>
-        <h3 className="card-title">Name: {name}</h3>
+      <div className="flex flex-col gap-2 py-[3.2rem] px-[]1.2rem]">
+        <h3>Name: {name}</h3>
         <Rating>
           Rating: <span className={`rating ${ratingClass} `}>{rating}</span>
         </Rating>
-        <p className="card-desc"> Summary: {description}</p>
+        <p className="text-3xl font-bold underline"> Summary: {description}</p>
         <p>Genre: {genre.join(", ")}</p>
         <p>Cast: {cast.join(", ")}</p>
         <a href={watch_url} target="_blank">
