@@ -36,7 +36,7 @@ export const EventHandling = () => {
         <button onClick={() => alert('Hey i am inline event function')}>Inline Arrow</button>
 
         <br/>
-
+        {/* Passing Arguments to Evenet Handlers  */}
         {/* <button onClick={handleWelcomeUser('Aditya')}>Click Me</button> */}
         <button onClick={()=>handleWelcomeUser('Aditya')}>Click Me</button>
         <button onClick={()=>handleWelcomeUser('Raj')}>Click Me</button>
