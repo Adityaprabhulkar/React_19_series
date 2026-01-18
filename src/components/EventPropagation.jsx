@@ -30,6 +30,6 @@ const EventPropagation = () => {
         </div>
     </section>
   )
-}
+};
 
 export default EventPropagation
