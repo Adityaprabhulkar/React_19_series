@@ -29,7 +29,7 @@ const EventPropagation = () => {
             </div>
         </div>
     </section>
-  )
+  );
 };
 
 export default EventPropagation
