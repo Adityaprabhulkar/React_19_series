@@ -9,7 +9,7 @@ const EventPropagation = () => {
 
     const handleParentClick = () => {
         console.log("Parent clicked");
-    }
+    };
 
     const handleChildClick = (event) => {
         console.log(event);
