@@ -1,6 +1,6 @@
 import "./EV.css";
 
-// 
+// /
 
 const EventPropagation = () => {
     const handleGrandParent = () => {
