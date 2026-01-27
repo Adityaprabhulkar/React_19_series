@@ -17,7 +17,7 @@ const EventPropagation = () => {
         console.log("Child  clicked");
     };
 
-    //
+    ///
     
    
 
