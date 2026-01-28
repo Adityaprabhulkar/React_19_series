@@ -14,20 +14,21 @@ export const SeriesCard = ({ data }) => {
   //   cursor: "pointer",
   // });
 
-   const ButtonStyle = styled.button`
+  const ButtonStyle = styled.button`
     padding: 1.2rem 2.4rem;
     border: none;
     font-size: 1.6rem;
-    background-color: ${(props) => props.rating >= 8.5 ? "#7dcea0" : "#f7dc6f"};
+    background-color: ${(props) =>
+      props.rating >= 8.5 ? "#7dcea0" : "#f7dc6f"};
     color: var(--btn-color);
-    fontWeight: bold;
+    fontweight: bold;
     cursor: pointer;
   `;
 
   const Rating = styled.h3`
-  font-size: 1.6rem;
-  color: #7dcea0;
-  text-transform: capitalize;
+    font-size: 1.6rem;
+    color: #7dcea0;
+    text-transform: capitalize;
   `;
 
   const ratingClass = rating >= 8.5 ? "super_hit" : "avarage";
@@ -50,7 +51,7 @@ export const SeriesCard = ({ data }) => {
         </a>
       </div>
     </li>
-  );
+    );
 };
 
 export default SeriesCard;
