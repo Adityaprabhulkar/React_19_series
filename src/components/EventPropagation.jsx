@@ -16,14 +16,9 @@ const EventPropagation = () => {
         event.stopPropagation();
         console.log("Child  clicked");
     };
-
-    ///
-    
    
 
-
-
-  return (
+ return (
     <section className='main-div'>
         <div className='g-div' onClickCapture={handleGrandParent}>
             <div className='p-div' onClickCapture={handleParentClick}>
@@ -36,4 +31,4 @@ const EventPropagation = () => {
   );
 };
 
-export default EventPropagation
+export default EventPropagation;
