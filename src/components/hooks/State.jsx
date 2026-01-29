@@ -8,7 +8,7 @@ export const State = () => {
   };
   return (
     <>
-      <section className="main-div">
+      <section className="main-div-1">
         <h1>{value}</h1>
         <button onClick={handleButtonClick}>Increment</button>
       </section>
